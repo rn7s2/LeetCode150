@@ -101,7 +101,15 @@ SOURCE=.\MergeSortedArray.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\MinimumSizeSubarraySum.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\RomanToInteger.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ValidPalindrome.h
 # End Source File
 # End Group
 # Begin Group "Resource Files"
