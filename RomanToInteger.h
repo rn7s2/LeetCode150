@@ -12,27 +12,30 @@ public:
             char ch = s[i];
             switch (ch)
             {
-            case 'I': {
+            case 'I':
+            {
                 bool sub = (i + 1 < n && (s[i + 1] == 'V' || s[i + 1] == 'X'));
                 ret += (sub ? -1 : 1);
                 break;
-                      }
+            }
             case 'V':
                 ret += 5;
                 break;
-            case 'X': {
+            case 'X':
+            {
                 bool sub = (i + 1 < n && (s[i + 1] == 'L' || s[i + 1] == 'C'));
                 ret += (sub ? -10 : 10);
                 break;
-                      }
+            }
             case 'L':
                 ret += 50;
                 break;
-            case 'C': {
+            case 'C':
+            {
                 bool sub = (i + 1 < n && (s[i + 1] == 'D' || s[i + 1] == 'M'));
                 ret += (sub ? -100 : 100);
                 break;
-                      }
+            }
             case 'D':
                 ret += 500;
                 break;
