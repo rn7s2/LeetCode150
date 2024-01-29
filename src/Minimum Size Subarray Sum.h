@@ -24,11 +24,6 @@ public:
         return ans;
     }
     
-    int min(int a, int b)
-    {
-        return a < b ? a : b;
-    }
-    
     void run()
     {
         vector<int> arr;
