@@ -93,7 +93,7 @@ SOURCE=.\main.cpp
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
-SOURCE=.\ClimbingStairs.h
+SOURCE=".\src\Climbing Stairs.h"
 # End Source File
 # Begin Source File
 
@@ -101,19 +101,39 @@ SOURCE=.\common.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\MergeSortedArray.h
+SOURCE=".\src\Longest Common Prefix.h"
 # End Source File
 # Begin Source File
 
-SOURCE=.\MinimumSizeSubarraySum.h
+SOURCE=".\src\Merge Sorted Array.h"
 # End Source File
 # Begin Source File
 
-SOURCE=.\RomanToInteger.h
+SOURCE=".\src\Min Stack.h"
 # End Source File
 # Begin Source File
 
-SOURCE=.\ValidPalindrome.h
+SOURCE=".\src\Minimum Size Subarray Sum.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Roman to Integer.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Rotate Array.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Valid Palindrome.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Word Ladder.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Zigzag Conversion.h"
 # End Source File
 # End Group
 # Begin Group "Resource Files"
