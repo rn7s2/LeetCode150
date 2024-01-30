@@ -101,6 +101,10 @@ SOURCE=.\common.h
 # End Source File
 # Begin Source File
 
+SOURCE=".\src\Factorial Trailing Zeroes.h"
+# End Source File
+# Begin Source File
+
 SOURCE=".\src\Longest Common Prefix.h"
 # End Source File
 # Begin Source File
@@ -122,6 +126,10 @@ SOURCE=".\src\Roman to Integer.h"
 # Begin Source File
 
 SOURCE=".\src\Rotate Array.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Search a 2D Matrix.h"
 # End Source File
 # Begin Source File
 
