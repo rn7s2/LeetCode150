@@ -1,3 +1,7 @@
+#include <cstdlib>
+#include <ctime>
+#include <cstring>
+#include <string>
 #include <algorithm>
 #include <iostream>
 #include <map>

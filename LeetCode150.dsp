@@ -93,11 +93,23 @@ SOURCE=.\main.cpp
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
+SOURCE=".\src\Best Time to Buy and Sell Stock II.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Best Time to Buy and Sell Stock.h"
+# End Source File
+# Begin Source File
+
 SOURCE=".\src\Climbing Stairs.h"
 # End Source File
 # Begin Source File
 
 SOURCE=.\common.h
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Evaluate Reverse Polish Notation.h"
 # End Source File
 # Begin Source File
 
@@ -130,6 +142,10 @@ SOURCE=".\src\Rotate Array.h"
 # Begin Source File
 
 SOURCE=".\src\Search a 2D Matrix.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Triangle.h
 # End Source File
 # Begin Source File
 
