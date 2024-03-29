@@ -13,18 +13,6 @@
 using namespace std;
 
 template<typename T>
-T min(T a, T b)
-{
-	return a < b ? a : b;
-}
-
-template<typename T>
-T max(T a, T b)
-{
-	return a > b ? a : b;
-}
-
-template<typename T>
 void dump(const vector<T>& v)
 {
 	int n = v.size();
