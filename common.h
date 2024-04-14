@@ -12,7 +12,18 @@
 
 using namespace std;
 
-template<typename T>
+// define missing functions for VC6
+#if (_MSC_VER == 1200)
+
+template <typename T>
+const T& max(const T& a, const T& b)
+{
+    return (a < b) ? b : a;
+}
+
+#endif
+
+template <typename T>
 void dump(const vector<T>& v)
 {
 	int n = v.size();
@@ -21,7 +32,7 @@ void dump(const vector<T>& v)
 	cout << endl;
 }
 
-template<typename T>
+template <typename T>
 void dump_2d(const vector<vector<T> >& v)
 {
 	int n = v.size();
