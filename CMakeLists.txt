@@ -19,7 +19,7 @@ set(SOURCE_DIR "src/")
 file(GLOB SOURCE_FILES "${SOURCE_DIR}/*.h")
 
 # Add source to this project's executable.
-add_executable(LeetCode150 common.h main.cpp ${SOURCE_FILES})
+add_executable(LeetCode150 main.cpp ${SOURCE_FILES})
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET LeetCode150 PROPERTY CXX_STANDARD 20)
