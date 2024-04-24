@@ -97,11 +97,27 @@ SOURCE=".\src\Best Time to Buy and Sell Stock.h"
 # End Source File
 # Begin Source File
 
+SOURCE=".\src\Bitwise AND of Numbers Range.h"
+# End Source File
+# Begin Source File
+
 SOURCE=".\src\Climbing Stairs.h"
 # End Source File
 # Begin Source File
 
-SOURCE=.\common.h
+SOURCE=.\src\common.h
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Course Schedule II.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Course Schedule.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Edit Distance.h"
 # End Source File
 # Begin Source File
 
@@ -133,6 +149,14 @@ SOURCE=".\src\Minimum Size Subarray Sum.h"
 # End Source File
 # Begin Source File
 
+SOURCE=".\src\Number of 1 Bits.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Permutations.h
+# End Source File
+# Begin Source File
+
 SOURCE=".\src\Roman to Integer.h"
 # End Source File
 # Begin Source File
@@ -154,6 +178,10 @@ SOURCE=".\src\Valid Palindrome.h"
 # Begin Source File
 
 SOURCE=".\src\Word Ladder.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\src\Word Search.h"
 # End Source File
 # Begin Source File
 
