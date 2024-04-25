@@ -11,8 +11,6 @@
 #include <stack>
 #include <vector>
 
-using namespace std;
-
 // define missing functions for VC6
 #if (_MSC_VER == 1200)
 
@@ -22,7 +20,13 @@ const T& max(const T& a, const T& b)
     return (a < b) ? b : a;
 }
 
+#else
+
+#include <numeric>
+
 #endif
+
+using namespace std;
 
 template <typename T>
 void dump(const vector<T>& v)
